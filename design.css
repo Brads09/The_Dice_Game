@@ -1,0 +1,84 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Layout container */
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+/* Title */
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  color: #10f2b2;
+  text-shadow: 0 3px 10px rgba(0, 255, 183, 0.6);
+  margin-bottom: 30px;
+}
+
+/* Player labels */
+p {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  color: #93eaff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ⭐ Dice wrapper – RESPONSIVE */
+.dice-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+/* Dice block */
+.dice {
+  text-align: center;
+}
+
+/* Dice images */
+img {
+  width: 100%;
+  max-width: 140px; /* Controls size; scales with zoom */
+  height: auto;
+  border-radius: 16px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+/* Roll button */
+button {
+  background: #10f2b2;
+  border: none;
+  color: #0b1f1b;
+  padding: 14px 34px;
+  margin-top: 20px;
+
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
+  font-family: 'Fredoka One', cursive;
+
+  border-radius: 12px;
+  cursor: pointer;
+
+  box-shadow: 0 5px 15px rgba(0,255,179,0.4);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0bdb9d;
+  box-shadow: 0 8px 20px rgba(0,255,179,0.6);
+  transform: translateY(-3px);
+}
+
